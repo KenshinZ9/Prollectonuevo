@@ -25,11 +25,18 @@ public class pruevaGitHub {
 		System.out.println("la resta es "+total);
 	}
 	
+	public static void division(int numero1, int numero2) {
+		int total =0;
+		total=numero1/numero2;
+		System.out.println("la resta es "+total);
+	}
+	
 	public static void main(String[] args) {
 		//Scanner teclado = new Scanner(System.in);
 		suma(numero1, numero2);
 		resta(numero1, numero2);
 		multiplicacion(numero1, numero2);
+		division(numero1, numero2);
 	}
 
 }
